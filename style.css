@@ -1,0 +1,15 @@
+.big-input {
+    height: 75vh;
+    width: 40vw;
+}
+
+.head-logo {
+    width: 15vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea::placeholder {
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
