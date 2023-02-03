@@ -4,7 +4,7 @@ import cors from 'cors';
 import {Configuration , OpenAIApi} from 'openai';
 
 dotenv.config();
-
+const PORT = process.env.PORT ;
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
 }); 
@@ -45,7 +45,7 @@ app.post('/' , async (req , res) => {
     }
 })
 
-app.listen( $PORT , ()=> 
+app.listen( (`${PORT}`) , ()=> 
     console.log('Server is running') 
     
 )
