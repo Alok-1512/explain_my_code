@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
 
 }
 
-document.getElementById("clear-button").addEventListener("click", function() {
+document.getElementById("clear").addEventListener("click", function() {
     document.getElementById("code").value = "";
 })
 
