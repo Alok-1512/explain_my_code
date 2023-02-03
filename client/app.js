@@ -75,7 +75,9 @@ const handleSubmit = async (e) => {
 
 }
 
-
+document.getElementById("clear-button").addEventListener("click", function() {
+    document.getElementById("code").value = "";
+})
 
     form.addEventListener('submit', handleSubmit)
     form.addEventListener('keyup', (e) => {
