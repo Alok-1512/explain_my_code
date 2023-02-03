@@ -70,4 +70,22 @@ I am a front-end developer with a passion for building beautiful and responsive 
 <br />
 
 
+<h2 align="left">🔗 Social Medias</h2>
+<div align="left">
+
+<a href="https://www.linkedin.com/in/aloksingh1512/" target="_blank">
+<img
+  src="https://img.icons8.com/color/144/linkedin"
+  width="40px"
+/>
+</a>&nbsp
+
+<a href="https://twitter.com/zz_alok" target="_blank">
+<img
+  src="https://img.icons8.com/color/144/twitter "
+  width="40px"
+/>
+</a>&nbsp
+
+
 
