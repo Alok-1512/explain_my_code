@@ -40,12 +40,11 @@ app.post('/' , async (req , res) => {
            bot: response.data.choices[0].text
           })
     } catch (error) {
-        console.log(error);
+        console.log(error , "error");
         res.status(500).send({error})
     }
 })
 
 app.listen( (`${PORT}`) , ()=> 
     console.log('Server is running') 
-    
 )
